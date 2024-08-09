@@ -1,0 +1,75 @@
+
+{
+  "stochastic_demand": [
+    {
+      "algorithm": "PPO",
+      "environments": [
+        {
+          "name": "LeanSupplyEnv-v0",
+          "log_name": "PPO,std=0"
+        },
+        {
+          "name": "LeanSupplyEn-v0",
+          "log_name": "PPO,std=0.1"
+        },
+        {
+          "name": "AgileSupplyEnv-v0",
+          "log_name": "PPO,std=1"
+        }
+      ]
+    },
+    {
+      "algorithm": "RecurrentPPO",
+      "environments": [
+        {
+          "name": "LeanSupplyEnv-v0",
+          "log_name": "RecurrentPPO,std=0"
+        },
+        {
+          "name": "LeanSupplyEn-v0",
+          "log_name": "RecurrentPPO,std=0.1"
+        },
+         {
+          "name": "AgileSupplyEnv-v0",
+          "log_name": "RecurrentPPO,std=1"
+        }
+      ]
+    }
+  ],
+  "batch_demand": [
+    {
+      "algorithm": "PPO",
+      "environments": [
+        {
+          "name": "LeanSupplyEnv-v1",
+          "log_name": "PPO,std=0.1,batch_size=10"
+        },
+        {
+          "name": "LeanSupplyEnv-v2",
+          "log_name": "PPO,std=0.1,batch_size=7"
+        },
+        {
+          "name": "AgileSupplyEnv-v3",
+          "log_name": "PPO,std=0.1,batch_size=3"
+        }
+      ]
+    },
+    {
+      "algorithm": "RecurrentPPO",
+      "environments": [
+        {
+          "name": "LeanSupplyEnv-v1",
+          "log_name": "RecurrentPPO,std=0.1,batch_size=10"
+        },
+        {
+          "name": "LeanSupplyEnv-v2",
+          "log_name": "RecurrentPPO,std=0.1,batch_size=7"
+        },
+        {
+          "name": "AgileSupplyEnv-v3",
+          "log_name": "RecurrentPPO,std=0.1,batch_size=3"
+        }
+      ]
+    }
+  ]
+}

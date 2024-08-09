@@ -1,0 +1,111 @@
+ {
+    "RecurrentPPO": [
+        {
+            "Agent": "RecurrentPPO (Baseline)",
+            "learning_rate": 0.0003,
+            "net_arch": {
+            "pi": [64, 64],
+            "vf": [64, 64]
+        },
+            "n_lstm_layers": 1,
+            "algorithm_name": "RecurrentPPO",
+            "environment_name": "LeanSupplyEnv-v1"
+        },
+        {
+            "Agent": "Recurrent PPO",
+            "learning_rate": 0.003,
+            "net_arch": {
+            "pi": [64, 64],
+            "vf": [64, 64]
+        },
+            "n_lstm_layers": 1,
+            "algorithm_name": "RecurrentPPO",
+            "environment_name": "LeanSupplyEnv-v1"
+        },
+        {
+            "Agent": "Recurrent PPO",
+            "learning_rate": 0.00003,
+            "net_arch": {
+            "pi": [64, 64],
+            "vf": [64, 64]
+        },
+            "n_lstm_layers": 1,
+            "algorithm_name": "RecurrentPPO",
+            "environment_name": "LeanSupplyEnv-v1"
+        },
+        {
+            "Agent": "Recurrent PPO",
+            "learning_rate": 0.0003,
+            "net_arch": {
+            "pi": [64],
+            "vf": [64]
+        },
+            "n_lstm_layers": 1,
+            "algorithm_name": "RecurrentPPO",
+            "environment_name": "LeanSupplyEnv-v1"
+        },
+        {
+            "Agent": "Recurrent PPO",
+            "learning_rate": 0.0003,
+            "net_arch": {
+            "pi": [64],
+            "vf": [64, 64, 64]
+        },
+            "n_lstm_layers": 1,
+            "algorithm_name": "RecurrentPPO",
+            "environment_name": "LeanSupplyEnv-v1"
+        }
+    ],
+    "PPO": [
+        {
+            "Agent": "PPO (Baseline)",
+            "learning_rate": 0.0003,
+            "net_arch": {
+            "pi": [64, 64],
+            "vf": [64, 64]
+        },
+            "algorithm_name": "PPO",
+            "environment_name": "LeanSupplyEnv-v1"
+        },
+        {
+            "Agent": "PPO",
+            "learning_rate": 0.00003,
+            "net_arch": {
+            "pi": [64, 64],
+            "vf": [64, 64]
+        },
+            "algorithm_name": "PPO",
+            "environment_name": "LeanSupplyEnv-v1"
+        },
+        {
+            "Agent": "PPO",
+            "learning_rate": 0.003,
+            "net_arch": {
+            "pi": [64, 64],
+            "vf": [64, 64]
+        },
+            "algorithm_name": "PPO",
+            "environment_name": "LeanSupplyEnv-v1"
+        },
+        {
+            "Agent": "PPO",
+            "learning_rate": 0.0003,
+            "net_arch": {
+            "pi": [64],
+            "vf": [64]
+        },
+            "algorithm_name": "PPO",
+            "environment_name": "LeanSupplyEnv-v1"
+        },
+        {
+            "Agent": "PPO",
+            "learning_rate": 0.0003,
+            "net_arch":  {
+            "pi": [64],
+            "vf": [64, 64, 64]
+        },
+            "algorithm_name": "PPO",
+            "environment_name": "LeanSupplyEnv-v1"
+        }
+    ]
+}
