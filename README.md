@@ -10,6 +10,6 @@
 conda create -n marl python==3.7.1
 conda activate lasc
 pip install torch
-
+```
 ### Note that this code does work with TensorFlow 2+. 
 ## Paper citation
