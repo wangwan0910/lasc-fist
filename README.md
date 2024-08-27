@@ -13,3 +13,6 @@ pip install torch
 ```
 ### Note that this code does work with TensorFlow 2+. 
 ## Paper citation
+
+DOI: [10.13140/RG.2.2.31988.68481](https://arxiv.org/abs/2312.15502)
+
