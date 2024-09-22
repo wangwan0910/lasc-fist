@@ -102,8 +102,6 @@ pytz==2024.1
 
 PyYAML==6.0.1
 
-ray==2.20.0
-
 referencing==0.35.1
 
 requests==2.32.3
