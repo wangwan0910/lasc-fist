@@ -38,12 +38,6 @@ class Customer():
             for value in values:
                 yield value
     
-    def get_batch(self,batch_size):
-        batch = []
-        for _ in range(batch_size):
-            batch.append(next(self.generator))
-        return batch
-    
     def _getdemand(self):
         return next(self.generator)
     
@@ -567,3 +561,4 @@ if __name__=='__main__':
 
         
              
+
